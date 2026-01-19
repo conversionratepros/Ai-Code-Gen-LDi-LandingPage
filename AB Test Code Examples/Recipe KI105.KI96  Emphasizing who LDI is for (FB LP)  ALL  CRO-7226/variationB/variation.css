@@ -1,0 +1,35 @@
+html body.croki105 .croki105-new-text {
+    color: #1E1A34;
+    font-family: 'ABC Social';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+html body.croki105 .croki105-new-text span {
+    font-weight: 700;
+}
+
+html body.croki105 .croki105-new-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+}
+
+html body.croki105 .croki105-new-wrapper {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+@media (max-width:767px) {
+    html body.croki105 .croki105-new-text span {
+    display: block;
+    }
+
+    html body.croki105 .croki105-new-text {
+    font-size: 16px;
+    line-height: 24px;
+    }
+}
