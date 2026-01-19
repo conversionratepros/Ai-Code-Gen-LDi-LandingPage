@@ -1,0 +1,25 @@
+html body.croki113 .croki113-hero-Section h2{
+    display: none;
+}
+
+html body.croki113 .croki113-new-header-text {
+    color: var(--LDI-25-Ocean-Teal--Dark, #2B5E7D);
+    font-family: 'Frame Head' !important;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.36px;
+}
+
+html body.croki113 .croki113-new-header-text span {
+    font-style: italic;
+    /* font-family: 'Frame Head' !important; */
+}
+
+@media (max-width:767px) {
+    html body.croki113 .croki113-new-header-text {
+        font-size: 32px;
+        line-height: 130%;
+    }
+}
