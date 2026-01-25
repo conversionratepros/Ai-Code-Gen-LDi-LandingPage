@@ -1,0 +1,44 @@
+html body.croki115 .croki115-Benefit_Section #waf_open_fa_interest_modal_btn span.elementor-button-text{
+    font-size: 0;
+    line-height: 0;
+}
+
+html body.croki115 .croki115-Benefit_Section #waf_open_fa_interest_modal_btn span.elementor-button-text::after{
+    content: "Get started";
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+html body.croki115 .croki115-HeroSection #waf_open_fa_interest_modal_btn span.elementor-button-text{
+    font-size: 0;
+    line-height: 0;
+}
+
+html body.croki115 .croki115-HeroSection #waf_open_fa_interest_modal_btn span.elementor-button-text::after{
+    content: "Get started";
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+html body.croki115 .croki115-Who_Section #waf_open_fa_interest_modal_btn span.elementor-button-text{
+    font-size: 0;
+    line-height: 0;
+}
+
+html body.croki115 .croki115-Who_Section #waf_open_fa_interest_modal_btn span.elementor-button-text::after{
+    content: "Get started";
+    font-size: 18px;
+    line-height: 26px;
+}
+
+@media (min-width:768px) {
+    
+    html body.croki115 .croki115-Benefit_Section #waf_open_fa_interest_modal_btn,
+    html body.croki115 .croki115-HeroSection #waf_open_fa_interest_modal_btn,
+    html body.croki115 .croki115-Who_Section #waf_open_fa_interest_modal_btn{
+        width: 100%;
+        max-width: 241px;
+    }
+}
